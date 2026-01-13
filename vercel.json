@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "outputDirectory": "apps/frontend/dist",
+  "outputDirectory": "apps/frontend/src",
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/apps/backend/dist/index.js"
+      "destination": "/apps/backend/src/index.js"
     },
     {
       "source": "/(.*)",
