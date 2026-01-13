@@ -1,0 +1,5 @@
+{
+  "name": "Aerfoirt Foireann",
+  "description": "An application for airlines to manage and assign ground handling crews to specific flights for tasks like stand operations, loading, unloading, and pushback, based on shift schedules and team sizes.",
+  "requestFramePermissions": []
+}

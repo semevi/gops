@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "outputDirectory": "apps/frontend/dist",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/apps/backend/dist/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
